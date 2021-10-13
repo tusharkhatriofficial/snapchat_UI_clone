@@ -6,7 +6,7 @@ This is a snapchat clone Auth ui
 
 https://youtu.be/qixrls_TDbE
 
-# Screen Shot
+# Screen Shots
 
 ![Speed Code (2)](https://user-images.githubusercontent.com/64004539/115930282-cd404600-a4a6-11eb-91bb-2c82397ff275.png)
 
