@@ -3,12 +3,13 @@ import 'package:flutter/material.dart';
 //This is the reusableButton Widget
 
 class ReusableButton extends StatelessWidget {
+  
+  final btnColour;
+  final btnChild;
+  final btnHeight;
+  final btnWidth;
+  final btnCircularRadius;
   ReusableButton({this.btnCircularRadius, this.btnWidth, this.btnHeight, this.btnChild, this.btnColour});
-  final Color btnColour;
-  final Widget btnChild;
-  final double btnHeight;
-  final double btnWidth;
-  final double btnCircularRadius;
 
 
 
@@ -29,9 +30,9 @@ class ReusableButton extends StatelessWidget {
 
 class CustomSnapTextField extends StatelessWidget {
   CustomSnapTextField({this.autoFocus, this.label, this.isPasswordField});
-  final String label;
-  final bool autoFocus;
-  final bool isPasswordField;
+  final  label;
+  final autoFocus;
+  final isPasswordField;
 
   @override
   Widget build(BuildContext context) {

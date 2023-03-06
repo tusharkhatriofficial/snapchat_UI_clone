@@ -47,10 +47,10 @@ class _InitialScreenState extends State<InitialScreen> {
                           Navigator.pushNamed(context, '/login_screen');
                         },
                         child: ReusableButton(
-                          btnHeight: 60,
-                          btnWidth: 130,
+                          btnHeight: 60.0,
+                          btnWidth: 130.0,
                           btnColour: loginButtonColor,
-                          btnCircularRadius: 80,
+                          btnCircularRadius: 80.0,
                           btnChild: Text(
                             "Log in",
                             style: TextStyle(
@@ -67,10 +67,10 @@ class _InitialScreenState extends State<InitialScreen> {
                           Navigator.pushNamed(context, '/signup_screen');
                         },
                         child: ReusableButton(
-                          btnHeight: 60,
-                          btnWidth: 130,
+                          btnHeight: 60.0,
+                          btnWidth: 130.0,
                           btnColour: signupButtonColor,
-                          btnCircularRadius: 80,
+                          btnCircularRadius: 80.0,
                           btnChild: Text(
                             "Sign Up",
                             style: TextStyle(
